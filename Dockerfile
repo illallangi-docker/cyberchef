@@ -1,4 +1,4 @@
-FROM node:11-alpine
+FROM node:13.7.0-alpine3.10
 LABEL maintainer='Andrew Cole <andrew.cole@illallangi.com>'
 WORKDIR /install/CyberChef/
 
