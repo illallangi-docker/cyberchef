@@ -1,0 +1,4 @@
+# ignore .git, .github and .cache folders
+.git
+.github
+.cache
