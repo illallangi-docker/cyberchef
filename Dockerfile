@@ -4,7 +4,8 @@ WORKDIR /install/CyberChef/
 
 COPY ./ /install/CyberChef/
 
-RUN npm install -g grunt-cli && \ 
+RUN npm config set unsafe-perm true & \
+    npm install -g grunt-cli && \ 
     npm install
 
 EXPOSE 8080
